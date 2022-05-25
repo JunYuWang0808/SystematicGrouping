@@ -1,0 +1,15 @@
+4. VariableChangeEntity -> 10. ExpressionChangeEntity : Def-Use: item invoked in keyReleaseEvent in CLDIFFCmd.java
+5. VariableChangeEntity -> 11. ExpressionChangeEntity : Def-Use: item invoked in buttonUpEvent in CLDIFFCmd.java
+3. VariableChangeEntity -> 9. ExpressionChangeEntity : Def-Use: item invoked in keyDownEvent in CLDIFFCmd.java
+0. ExpressionChangeEntity -> 1. ExpressionChangeEntity : Systematic-Change in CLDIFFCmd.java
+0. ExpressionChangeEntity -> 2. ExpressionChangeEntity : Systematic-Change in CLDIFFCmd.java
+1. ExpressionChangeEntity -> 2. ExpressionChangeEntity : Systematic-Change in CLDIFFCmd.java
+6. ExpressionChangeEntity -> 7. ExpressionChangeEntity : Systematic-Change in CLDIFFCmd.java
+6. ExpressionChangeEntity -> 8. ExpressionChangeEntity : Systematic-Change in CLDIFFCmd.java
+7. ExpressionChangeEntity -> 8. ExpressionChangeEntity : Systematic-Change in CLDIFFCmd.java
+9. ExpressionChangeEntity -> 10. ExpressionChangeEntity : Systematic-Change in CLDIFFCmd.java
+9. ExpressionChangeEntity -> 11. ExpressionChangeEntity : Systematic-Change in CLDIFFCmd.java
+10. ExpressionChangeEntity -> 11. ExpressionChangeEntity : Systematic-Change in CLDIFFCmd.java
+3. VariableChangeEntity -> 4. VariableChangeEntity : Systematic-Change in CLDIFFCmd.java
+3. VariableChangeEntity -> 5. VariableChangeEntity : Systematic-Change in CLDIFFCmd.java
+4. VariableChangeEntity -> 5. VariableChangeEntity : Systematic-Change in CLDIFFCmd.java

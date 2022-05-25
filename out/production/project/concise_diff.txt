@@ -1,0 +1,42 @@
+0. addExpressionStatement
+	(11,11)
+1. addExpressionStatement
+	(24,24)
+2. addExpressionStatement
+	(34,34)
+3. deleteVariableDeclaration
+	(3,3)
+4. deleteVariableDeclaration
+	(15,15)
+5. deleteVariableDeclaration
+	(26,26)
+6. updateExpressionStatement   by
+	add ConditionalExpression
+	add focusItem.expanded
+	add COLLAPSE
+	add EXPAND
+	delete true
+	(9,9)-(10,10)
+7. updateExpressionStatement   by
+	add ConditionalExpression
+	add focusItem.expanded
+	add COLLAPSE
+	add EXPAND
+	delete true
+	(21,21)-(23,23)
+8. updateExpressionStatement   by
+	add ConditionalExpression
+	add focusItem.expanded
+	add EXPAND
+	add COLLAPSE
+	delete true
+	(30,30)-(33,33)
+9. updateExpressionStatement   by
+	update item->focusItem
+	(8,8)-(9,9)
+10. updateExpressionStatement   by
+	update item->focusItem
+	(20,20)-(22,22)
+11. updateExpressionStatement   by
+	update item->focusItem
+	(29,29)-(32,32)
