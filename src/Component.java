@@ -7,7 +7,7 @@ public class Component {
     private List<String> changeIndex;
     private List<String> roots;
     private String description;
-    private UnionFind uf;
+    public UnionFind uf;
 
     public Component(UnionFind uf) {
         changeItems = new ArrayList<>();

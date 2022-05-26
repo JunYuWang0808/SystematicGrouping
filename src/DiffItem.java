@@ -1,0 +1,2 @@
+public class DiffItem {
+}

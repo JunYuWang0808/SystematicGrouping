@@ -1,0 +1,32 @@
+public class CLDIFFCmd {
+  public int keyDownEvent (int wParam, int lParam) {
+       ExpandItem item = items [focusIndex];
+       switch (wParam) {
+         case OS.VK_SPACE:
+         case OS.VK_RETURN:
+         Event event = new Event ();
+         event.item = item;
+         sendEvent(true, event);
+       }
+  }
+
+
+ public int keyReleaseEvent (int wParam, int lParam) {
+   ExpandItem item = items [focusIndex];
+   switch (wParam) {
+     case OS.GDK_RETURN:
+     case OS.GDK_SPACE:
+     Event ev = new Event ();
+     ev.item = item;
+     sendEvent(true, ev);
+   }
+  }
+
+ public int buttonUpEvent (int wParam, int lParam) {
+   ExpandItem item = items [focusIndex];
+   if (lParam == HOVER) {
+   Event bEvent = new Event ();
+   bEvent.item = item;
+   sendEvent(true, bEvent);
+   }
+  }

@@ -1,0 +1,5 @@
+enum ChangeType {
+    DELETE,
+    UPDATE
+};
+
